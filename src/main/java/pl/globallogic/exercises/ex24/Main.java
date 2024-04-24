@@ -79,7 +79,8 @@ public class Main {
     }
 
     public static int reverse(int number) {
-        int stringLength = number > 0 ? getDigitCount(number) : getDigitCount(number) - 1;
+        String numberString = String.valueOf(number);
+        int stringLength = number > 0 ? numberString.length() : numberString.length() - 1;
         int reversedNumber = 0;
         int temp = 0;
 
