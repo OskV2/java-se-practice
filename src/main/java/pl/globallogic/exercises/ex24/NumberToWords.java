@@ -2,7 +2,7 @@ package pl.globallogic.exercises.ex24;
 
 import java.util.ArrayList;
 
-public class Main {
+public class NumberToWords {
     public static void main(String[] args) {
         System.out.println("Number to words:");
         numberToWords(123);

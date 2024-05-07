@@ -2,7 +2,7 @@ package pl.globallogic.exercises.ex23;
 
 import java.util.ArrayList;
 
-public class Main {
+public class PerfectNumber {
     public static void main(String[] args) {
         System.out.println(isPerfectNumber(6));
         System.out.println(isPerfectNumber(28));

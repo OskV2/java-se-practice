@@ -1,6 +1,6 @@
 package pl.globallogic.exercises.ex9;
 
-public class Main {
+public class AreaCalculator {
     public static void main(String[] args) {
         System.out.println(area(5.0));
         System.out.println(area(-1));

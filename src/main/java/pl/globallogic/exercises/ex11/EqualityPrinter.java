@@ -1,6 +1,6 @@
 package pl.globallogic.exercises.ex11;
 
-public class Main {
+public class EqualityPrinter {
     public static void main(String[] args) {
         printEqual(1, 1, 1);
         printEqual(1, 1, 2);

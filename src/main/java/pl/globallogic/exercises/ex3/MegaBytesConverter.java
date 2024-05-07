@@ -1,6 +1,6 @@
 package pl.globallogic.exercises.ex3;
 
-public class Main {
+public class MegaBytesConverter {
     public static void main(String[] args) {
         printMegaBytesAndKiloByes(2500);
         printMegaBytesAndKiloByes(-1);

@@ -1,6 +1,6 @@
 package pl.globallogic.exercises.ex1;
 
-public class Main {
+public class PositiveNegativeOrZero {
     public static void main(String[] args) {
         int positive = 2, negative = -2, zero = 0;
 

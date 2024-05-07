@@ -1,6 +1,6 @@
 package pl.globallogic.exercises.ex17;
 
-public class Main {
+public class FirstAndLastDigitSum {
     public static void main(String[] args) {
         System.out.println(sumFirstAndLastDigit(252));
         System.out.println(sumFirstAndLastDigit(257));

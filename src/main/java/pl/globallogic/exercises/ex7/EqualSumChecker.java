@@ -1,6 +1,6 @@
 package pl.globallogic.exercises.ex7;
 
-public class Main {
+public class EqualSumChecker {
     public static void main(String[] args) {
         System.out.println(hasEqualSum(1, 1, 1));
         System.out.println(hasEqualSum(1, 1, 2));

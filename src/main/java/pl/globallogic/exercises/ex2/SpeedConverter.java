@@ -1,6 +1,6 @@
 package pl.globallogic.exercises.ex2;
 
-public class Main {
+public class SpeedConverter {
     public static void main(String[] args) {
         System.out.println(toMilesPerHour(1.5));
         System.out.println(toMilesPerHour(10.25));

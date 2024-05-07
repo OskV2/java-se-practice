@@ -1,6 +1,6 @@
 package pl.globallogic.exercises.ex4;
 
-public class Main {
+public class BarkingDog {
     public static void main(String[] args) {
         System.out.println(shouldWakeUp(true, 1));
         System.out.println(shouldWakeUp(false, 2));

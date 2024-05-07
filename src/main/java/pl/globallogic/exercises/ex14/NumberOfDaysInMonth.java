@@ -1,6 +1,6 @@
 package pl.globallogic.exercises.ex14;
 
-public class Main {
+public class NumberOfDaysInMonth {
     public static void main(String[] args) {
         System.out.println(getDaysInMonth(1, 2020));
         System.out.println(getDaysInMonth(2, 2020));

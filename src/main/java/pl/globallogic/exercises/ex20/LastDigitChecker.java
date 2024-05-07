@@ -1,6 +1,6 @@
 package pl.globallogic.exercises.ex20;
 
-public class Main {
+public class LastDigitChecker {
     public static void main(String[] args) {
         System.out.println(hasSameLastDigit(41, 22, 71));
         System.out.println(hasSameLastDigit(23, 32, 42));

@@ -1,6 +1,6 @@
 package pl.globallogic.exercises.ex12;
 
-public class Main {
+public class PlayingCat {
     public static void main(String[] args) {
         System.out.println(isCatPlaying(true, 10));
         System.out.println(isCatPlaying(false, 36));

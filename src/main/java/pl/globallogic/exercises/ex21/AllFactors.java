@@ -1,6 +1,6 @@
 package pl.globallogic.exercises.ex21;
 
-public class Main {
+public class AllFactors {
     public static void main(String[] args) {
         printFactors(6);
         printFactors(32);

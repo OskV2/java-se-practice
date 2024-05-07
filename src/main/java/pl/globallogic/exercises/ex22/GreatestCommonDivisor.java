@@ -2,7 +2,7 @@ package pl.globallogic.exercises.ex22;
 
 import java.util.ArrayList;
 
-public class Main {
+public class GreatestCommonDivisor {
     public static void main(String[] args) {
         System.out.println(getGreatestCommonDivisor(25, 15));
         System.out.println(getGreatestCommonDivisor(12, 30));

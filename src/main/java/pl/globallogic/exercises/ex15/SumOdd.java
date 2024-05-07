@@ -1,6 +1,6 @@
 package pl.globallogic.exercises.ex15;
 
-public class Main {
+public class SumOdd {
     public static void main(String[] args) {
         System.out.println(sumOdd(1, 100));
         System.out.println(sumOdd(-1, 100));

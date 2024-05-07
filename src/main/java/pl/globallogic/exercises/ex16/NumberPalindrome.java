@@ -1,6 +1,6 @@
 package pl.globallogic.exercises.ex16;
 
-public class Main {
+public class NumberPalindrome {
     public static void main(String[] args) {
         System.out.println(isPalindrome(-1221));
         System.out.println(isPalindrome(707));

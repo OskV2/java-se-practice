@@ -1,6 +1,6 @@
 package pl.globallogic.exercises.ex10;
 
-public class Main {
+public class MinutesToYearsAndDaysCalculator {
     public static void main(String[] args) {
         printYearsAndDays(525600);
         printYearsAndDays(1051200);

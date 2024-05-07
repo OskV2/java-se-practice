@@ -1,6 +1,6 @@
 package pl.globallogic.exercises.ex6;
 
-public class Main {
+public class DecimalComparator {
     public static void main(String[] args) {
         System.out.println(areEqualByThreeDecimalPlaces(-3.1756, -3.175));
         System.out.println(areEqualByThreeDecimalPlaces(3.175, 3.176));
