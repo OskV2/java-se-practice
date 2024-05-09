@@ -1,4 +1,6 @@
-package pl.globallogic.sessions.s8;
+package pl.globallogic.sessions.s8.filtering;
+
+import pl.globallogic.sessions.s8.Dish;
 
 public class CaloriesTester implements DishTester {
 
