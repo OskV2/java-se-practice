@@ -2,6 +2,7 @@ package pl.globallogic.sessions.s8;
 
 import pl.globallogic.sessions.s8.extractors.CaloriesExtractor;
 import pl.globallogic.sessions.s8.extractors.CookingTimeExtractor;
+import pl.globallogic.sessions.s8.extractors.DishDataExtractor;
 import pl.globallogic.sessions.s8.filtering.CaloriesTester;
 import pl.globallogic.sessions.s8.filtering.DishTester;
 import pl.globallogic.sessions.s8.filtering.TesterOperators;
@@ -49,7 +50,7 @@ public class EnhancedMenuProcessor {
         return result;
     }
 
-    private int totalSumOf(Menu menu, CaloriesExtractor.DishDataExtractor extractor) {
+    private int totalSumOf(Menu menu, DishDataExtractor extractor) {
         int total = 0;
         for (Dish dish : menu.getDishes()) {
             total = total + extractor.extract(dish);
@@ -57,7 +58,7 @@ public class EnhancedMenuProcessor {
         return total;
     }
 
-    private List<Dish> maxOfCalories(Menu menu, CaloriesExtractor.DishDataExtractor extractor) {
+    private List<Dish> maxOfCalories(Menu menu, DishDataExtractor extractor) {
         int max = extractor.extract(menu.getDishes().getFirst());
         for (Dish dish : menu.getDishes()) {
             max = Math.max(max, extractor.extract(dish));
@@ -73,7 +74,5 @@ public class EnhancedMenuProcessor {
         return filterBy(menu, List.of(filterByMaxCalories));
     }
 
-    private int minOf(Menu menu, CaloriesExtractor.DishDataExtractor extractor) {
-
-    }
+//    private int minOf(Menu menu, DishDataExtractor extractor) {}
 }
