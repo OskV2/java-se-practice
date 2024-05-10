@@ -58,21 +58,22 @@ public class EnhancedMenuProcessor {
         return total;
     }
 
-    private List<Dish> maxOfCalories(Menu menu, DishDataExtractor extractor) {
-        int max = extractor.extract(menu.getDishes().getFirst());
-        for (Dish dish : menu.getDishes()) {
-            max = Math.max(max, extractor.extract(dish));
-        }
-        int finalMax = max;
-//        DishTester filterByMaxCalories = new DishTester() {
-//            @Override
-//            public boolean test(Dish dish) {
-//                return dish.getCalories() == finalMax;
-//            }
-//        };
-        DishTester filterByMaxCalories = dish -> dish.getCalories() == finalMax;
-        return filterBy(menu, List.of(filterByMaxCalories));
-    }
+    //  SOMETHING IS STRONGLY FUCKED UP IN HERE BUT I DONT KNOW WHAT YET
+//    private List<Dish> maxOfCalories(Menu menu, DishDataExtractor extractor) {
+//        int max = extractor.extract((Dish) menu.getDishes().getFirst());
+//        for (Dish dish : menu.getDishes()) {
+//            max = Math.max(max, extractor.extract(dish));
+//        }
+//        int finalMax = max;
+////        DishTester filterByMaxCalories = new DishTester() {
+////            @Override
+////            public boolean test(Dish dish) {
+////                return dish.getCalories() == finalMax;
+////            }
+////        };
+//        DishTester filterByMaxCalories = dish -> dish.getCalories() == finalMax;
+//        return filterBy(menu, List.of(filterByMaxCalories));
+//    }
 
 //    private int minOf(Menu menu, DishDataExtractor extractor) {}
 }
