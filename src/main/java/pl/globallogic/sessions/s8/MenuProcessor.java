@@ -95,4 +95,16 @@ public class MenuProcessor {
         }
         return null;
     }
+
+    public List<Dish> getVegetarianTop3DishesWithCaloriesLessThan200 () {
+        //  Streams implemented
+        menu.getDishes().stream()
+                .sorted(Comparator.comparing(Dish::getCalories))
+                .filter(dish -> dish.isVegetarian())
+                .filter(dish -> dish.getCalories() < 200)
+                .limit(3)
+                .toList();
+
+        return null;
+    }
 }
