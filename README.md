@@ -1,5 +1,6 @@
+### Repository created during Quality Assurance Academy 2024 at Globallogic Poland 
 # Java se practice 2024
-#### Java exercises made during QA Academy in GlobalLogic Poland
+#### Java exercises made during QA Academy
 
 Includes:
 - Almost 50 Java exercises:
